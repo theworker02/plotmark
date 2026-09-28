@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/plotmark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plot and summarize mark statistics from numeric stdin samples.",
+  "bin": {
+    "plotmark": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/plotmark.git"
+  },
+  "homepage": "https://theworker02.github.io/plotmark/",
+  "keywords": [
+    "plot",
+    "mark",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
